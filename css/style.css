@@ -1,0 +1,159 @@
+﻿body
+{
+    font-family:'Baskerville Old Face',Arial,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifsans-serif,Verdana;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color:floralwhite;
+}
+/*Global*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+
+}
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Header**/
+header{
+    background:#eff4fa;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#756b6b 3px solid;
+
+}
+header a{
+    color:#756b6b;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+}
+header #branding{
+    float:left;
+}
+header #branding h1{
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top:10px;
+}
+header .highlight,header .current a{
+    color:#300909;
+    font-weight:bold;
+}
+header a:hover{
+    color:#300909;
+    font-weight:bold;
+}
+
+/*Showcase*/
+#showcase{
+min-height:400px;
+background:url('../img/branchd.jpg') no-repeat 0px -700px;
+text-align:center;
+color:#eff4fa;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 60px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+    font-size:24px;
+    font-weight:bold
+}
+
+
+#newsletter {
+    padding: 15px;
+    color:#8d6e6e;
+    background:#eff4fa;
+}
+#newsletter h1{
+    float:left;
+    font-size:24px;
+    margin-top:10px;
+
+}
+#newsletter h4{
+    float:right;
+    font-size:24px;
+    margin-top:10px;
+}
+    
+
+#border {
+    padding: 15px;
+    color: #8d6e6e;
+    background: #eff4fa;
+    margin-bottom:0;
+}
+
+   
+
+    #border form {
+    
+        margin-top: 10px;
+       
+    }
+.button_1 {
+    height: 40px;
+    background: #8d6e6e;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#eff4fa;
+    font-weight:bold;
+
+    float:inline-start;
+}
+
+    #border input[type="text"] {
+        padding: 10px;
+        height: 30px;
+        width: 400px;
+    }
+    /*Boxes**/
+    #boxes{
+        margin-top:20px;
+    }
+    #boxes .box{
+        float:left;
+        width: 48%;
+        padding:10px;
+        text-align:left;
+        
+
+
+    }
+    #boxes .box img{
+        width:487px;
+        margin-top:25px;
+
+    }
+    #boxes h3{
+        font-size:20px;
+    }
+
+    footer{
+        padding: 20px;
+        margin-top:20px;
+        color:#eff4fa;
+        Background-color:#8d6e6e;
+        text-align:center;
+    }
